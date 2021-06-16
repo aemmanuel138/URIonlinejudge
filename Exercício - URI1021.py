@@ -1,0 +1,25 @@
+n=float(input())
+n100=n//100
+n=n-n100*100
+n50=n//50
+n=n-n50*50
+n20=n//20
+n=n-n20*20
+n10=n//10
+n=n-n10*10
+n5=n//5
+n=n-n5*5
+n2=n//2
+n=n-n2*2
+m1r=n//1
+n=n-m1r*1
+m50c=n//0.5
+n=n-m50c*0.5
+m25c=n//0.25
+n=n-m25c*0.25
+m10c=n//0.1
+n=n-m10c*0.1
+m5c=n//0.05
+n=n-m5c*0.05
+m1c=n//0.01
+print("NOTAS:\n{:.0f} nota(s) de R$ 100.00\n{:.0f} nota(s) de R$ 50.00\n{:.0f} nota(s) de R$ 20.00\n{:.0f} nota(s) de R$ 10.00\n{:.0f} nota(s) de R$ 5.00\n{:.0f} nota(s) de R$ 2.00\nMOEDAS:\n{:.0f} moedas(s) de R$ 1.00\n{:.0f} moedas(s) de R$ 0.50\n{:.0f} moedas(s) de R$ 0.25\n{:.0f} moedas(s) de R$ 0.10\n{:.0f} moedas(s) de R$ 0.05\n{:.0f} moedas(s) de R$ 0.01".format(n100,n50,n20,n10,n5,n2,m1r,m50c,m25c,m10c,m5c,m1c))
